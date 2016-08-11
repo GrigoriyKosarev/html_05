@@ -1,0 +1,134 @@
+.wrapper {
+    font-family: 'Helvetica Neue LT Std';
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: block;
+    padding-left: 100px;
+    background-color: #07508f;
+    list-style: none;
+    height: 29px;
+}
+.menu{
+    float:right;
+}
+ul.menu li {
+    float: left;
+    margin-right: 15px;
+    padding: 5px 5px;
+}
+ul.menu li:hover{
+    background-color: rgb(78,171,218);
+}
+ul.menu li a{
+    text-decoration: none;
+    color: rgb(78,171,218);
+}
+ul.menu li a:hover{
+    color: white;
+}
+.menu{
+    clear: both;
+}
+span{
+    text-decoration: underline;
+}
+.content{
+    background-image: url(../images/Background.jpg);
+    background-size: 100% 100%;
+    height: 1020px;
+}
+.registration_form{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    background: rgba(0, 0, 0, 0.63);
+    width: 560px;
+    height: 610px;
+}
+.title{
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    border-bottom: 2px solid #ffffff;
+}
+form{
+    margin: 40px 140px;
+}
+hr {
+    width:115px;
+    padding-bottom: 1px;
+    background-color: #000000;
+    border-top:2px solid #666666;
+}
+.decoration{
+    display: block;
+    margin: 20px 0;
+    list-style: none;
+    float: left;
+}
+.decoration li{
+    float: left;
+}
+.decoration span{
+    margin: 0 8px;
+    color: #686c68;
+    text-decoration: none;
+}
+input[type=text]{
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border: none;
+    height: 25px;
+    width: 245px;
+    background-color: #100f0f;
+    color: #686c68;
+}
+input[type=text]:hover{
+    background-color: #1b5288;
+    border: 1px;
+    color: #ffffff;
+    box-shadow:  0 0 10px 3px rgba(79,138,178,1);
+}
+form span{
+    font-size: 14px;
+    color: #686c68;
+    text-decoration: none;
+}
+.center{
+    position: relative;
+    margin: 0 -50px;
+}
+.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+
+}
+.button input{
+    max-width: 100%;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    background: rgba(71, 161, 213, 0.9);
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.info{
+    position: absolute;
+    float: left;
+    margin-top: 70px;
+}
+.info p{
+    color: #686c68;
+    font-size: 14px;
+    text-align: center;
+}
